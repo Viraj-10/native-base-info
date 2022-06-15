@@ -15,10 +15,13 @@
     "base",
     "info"
   ],
-  "author": "viraj joshi (viraj_10)",
+  "author": "viraj joshi (viraj-10)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Viraj-10/native-base-info/issues"
   },
-  "homepage": "https://github.com/Viraj-10/native-base-info#readme"
+  "homepage": "https://github.com/Viraj-10/native-base-info#readme",
+  "dependencies": {
+    "envinfo": "^7.8.1"
+  }
 }
