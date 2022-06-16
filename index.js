@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const fs = require("fs");
 const envinfo = require("envinfo");
 
