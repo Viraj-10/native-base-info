@@ -1,6 +1,6 @@
 {
   "name": "native-base-info",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "get require information for native base",
   "main": "index.js",
   "bin": {
