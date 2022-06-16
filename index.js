@@ -12,6 +12,11 @@ let packages = [
   "@react-native-community/cli",
   "react-native-web",
   "expo",
+  "next",
+  "next-compose-plugins",
+  "next-transpile-modules",
+  "@expo/next-adapter",
+  "next-fonts",
 ];
 
 function main() {
