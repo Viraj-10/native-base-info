@@ -1,6 +1,5 @@
 #!/usr/bin/node
 
-const fs = require("fs");
 const envinfo = require("envinfo");
 
 let packages = [
@@ -15,7 +14,7 @@ let packages = [
   "expo",
 ];
 
-function getInfo() {
+function main() {
   try {
     envinfo
       .run({
@@ -34,4 +33,6 @@ function getInfo() {
   }
 }
 
-getInfo();
+if (require.main === module) {
+  main();
+}
