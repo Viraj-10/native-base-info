@@ -1,6 +1,5 @@
 const fs = require("fs");
 const envinfo = require("envinfo");
-const { platform } = require("os");
 
 let packages = [
   "react",
